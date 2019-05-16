@@ -6,29 +6,5 @@
   "devDependencies": {
     "jest": "^24.8.0",
     "jest-junit": "^6.4.0"
-  },
-  "jest": {
-    "collectCoverageFrom": [
-      "*.js"
-    ],
-    "coveragePathIgnorePatterns": [
-      "/node_modules/"
-    ],
-    "coverageReporters": [
-      "cobertura",
-      "text"
-    ],
-    "coverageThreshold": {
-      "global": {
-        "statements": 100,
-        "branches": 100,
-        "functions": 100,
-        "lines": 100
-      }
-    },
-    "reporters": [
-      "default",
-      "jest-junit"
-    ]
   }
 }
