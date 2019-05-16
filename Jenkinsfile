@@ -2,6 +2,14 @@ pipeline {
     agent any
 
     stages {
+        stage('Checkout') {
+            steps {
+                script {
+                    git changelog: false, poll: false, url: 'git@github.com:zihaoyu/test-jest.git'
+                }
+            }
+        }
+
         stage('Code Coverage') {
             steps {
                 script {
