@@ -1,6 +1,6 @@
 module.exports = {
   collectCoverageFrom: [
-    "*.js"
+    "**/*.js"
   ],
   coveragePathIgnorePatterns: [
     "/jest.config.js",
@@ -10,14 +10,6 @@ module.exports = {
     "cobertura",
     "text"
   ],
-  coverageThreshold: {
-    global: {
-      "statements": 100,
-      "branches": 100,
-      "functions": 100,
-      "lines": 100
-    }
-  },
   reporters: [
     "default",
     // "jest-junit"
