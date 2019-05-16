@@ -1,11 +1,11 @@
 <?xml version="1.0" ?>
 <!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
-<coverage lines-valid="4" lines-covered="3" line-rate="0.75" branches-valid="0" branches-covered="0" branch-rate="1" timestamp="1558025344762" complexity="0" version="0.1">
+<coverage lines-valid="4" lines-covered="4" line-rate="1" branches-valid="0" branches-covered="0" branch-rate="1" timestamp="1558025398486" complexity="0" version="0.1">
   <sources>
     <source>/private/tmp/test-jest</source>
   </sources>
   <packages>
-    <class name="action.js" filename="src/action.js" line-rate="0.75" branch-rate="1">
+    <class name="action.js" filename="src/action.js" line-rate="1" branch-rate="1">
       <methods>
         <method name="walk" hits="1" signature="()V">
           <lines>
@@ -17,16 +17,16 @@
             <line number="5" hits="1"/>
           </lines>
         </method>
-        <method name="fly" hits="0" signature="()V">
+        <method name="fly" hits="1" signature="()V">
           <lines>
-            <line number="9" hits="0"/>
+            <line number="9" hits="1"/>
           </lines>
         </method>
       </methods>
       <lines>
         <line number="2" hits="1" branch="false"/>
         <line number="6" hits="1" branch="false"/>
-        <line number="10" hits="0" branch="false"/>
+        <line number="10" hits="1" branch="false"/>
         <line number="13" hits="1" branch="false"/>
       </lines>
     </class>

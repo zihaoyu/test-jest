@@ -7,3 +7,7 @@ test('walk', () => {
 test('run', () => {
     expect(action.run()).toBe('run');
 });
+
+test('fly', () => {
+    expect(action.fly()).toBe('fly');
+});
