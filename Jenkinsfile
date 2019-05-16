@@ -27,7 +27,7 @@ pipeline {
                     def prevCoverage = resp.results.elements
 
                     response = httpRequest(
-                        url: 'http://jenkins/job/z-tests/job/test-code-coverage/${env.BUILD_NUMBER}/cobertura/api/json?depth=2',
+                        url: "http://jenkins/job/z-tests/job/test-code-coverage/${env.BUILD_NUMBER}/cobertura/api/json?depth=2",
                         httpMode: 'GET',
                         authentication: 'zihaoyu-api-token',
                         responseHandle: 'STRING',
